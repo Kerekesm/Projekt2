@@ -2,7 +2,6 @@ import tkinter as tk
 from PIL import Image, ImageTk
 
 # Itt add meg a különbségek pozícióit (x, y koordináták a képen belül)
-# Ezeket te határozhatod meg!
 differences = [
     (565, 520),  # Példa különbség koordinátái
     (520, 310),
@@ -10,12 +9,13 @@ differences = [
     (90, 210),
     (10, 145),
     (285, 425),
+    (145, 180),
 ]
 found_differences = []
 
 # Képek elérési útvonala
-image1_path = "c:/Image1.jpg"  # Az első kép
-image2_path = "c:/Image2.jpg"  # A második kép
+image1_path = "kép_különbség_játék/Image1.jpg"  # Az első kép
+image2_path = "kép_különbség_játék/Image2.jpg"  # A második kép
 
 # Ellenőrző funkció (kattintásra)
 def check_difference(event):
