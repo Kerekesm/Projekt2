@@ -10,6 +10,7 @@ level1_differences = [
     (10, 145),
     (285, 425),
     (145, 180),
+    (295, 370),
 ]
 level2_differences = [
     (114, 34),
